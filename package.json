@@ -1,0 +1,23 @@
+{
+  "name": "gsl-specfunc",
+  "version": "0.1.0",
+  "description": "special functions of GNU Scientific Library for JS",
+  "main": "specfunc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GSL-for-JS/gsl-specfunc-js.git"
+  },
+  "keywords": [
+    "mathematical-functions",
+    "math"
+  ],
+  "author": "Philipp Burckhardt",
+  "license": "GPL-3",
+  "bugs": {
+    "url": "https://github.com/GSL-for-JS/gsl-specfunc-js/issues"
+  },
+  "homepage": "https://github.com/GSL-for-JS/gsl-specfunc-js"
+}
