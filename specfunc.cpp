@@ -1,18 +1,20 @@
 #include <emscripten/bind.h>
 #include <gsl/gsl_mode.h>
 #include <gsl/gsl_errno.h>
+#include <gsl/gsl_pow_int.h>
+#include <gsl/gsl_minmax.h>
 #include <specfunc/gsl_sf.h>
 
 using namespace emscripten;
 
 EMSCRIPTEN_BINDINGS(my_module) {
 
-  class_<gsl_sf_result>("gsl_sf_result")
+  class_<gsl_sf_result>("result")
       .constructor()
       .property("val", &gsl_sf_result::val)
       .property("err", &gsl_sf_result::err);
 
-  class_<gsl_sf_result_e10>("gsl_sf_result_e10")
+  class_<gsl_sf_result_e10>("result_e10")
       .constructor()
       .property("val", &gsl_sf_result_e10::val)
       .property("err", &gsl_sf_result_e10::err)
