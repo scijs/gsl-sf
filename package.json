@@ -1,5 +1,5 @@
 {
-  "name": "gsl-specfunc",
+  "name": "gsl-sf",
   "version": "0.1.1",
   "description": "special functions of GNU Scientific Library for JS",
   "main": "specfunc.js",
