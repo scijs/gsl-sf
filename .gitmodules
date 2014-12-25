@@ -1,0 +1,3 @@
+[submodule "gsl-js"]
+	path = gsl-js
+	url = https://github.com/GSL-for-JS/gsl-js.git
